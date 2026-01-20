@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Meiryo", sans-serif;
+}
+
+header {
+    width: 95%;
+    margin: auto;
+}
+.header-logo {
+    background: #fff;
+    padding: 15px 20px;
+}
+.header-logo img {
+    width: 220px;
+    height: auto;
+    display: block;
+}
+
+header nav {
+    background: #000;
+    font-size: 14px;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+}
+header nav li {
+    margin-right: 35px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    gap: 30px;
+}
+.left {
+    flex: 3;
+}
+
+.left h2 {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-left:5px solid black;
+    border-bottom:2px solid black;
+}
+
+.date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.main-image {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.description {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background: #eee;
+    padding: 20px;
+}
+
+.card {
+    width: calc(25% - 15px);
+    text-align: center;
+    font-size: 14px;
+}
+.card-list img{
+    width: calc(25% - 15px);
+}
+
+.right {
+    flex: 1;
+    padding-top: 30px;
+}
+
+.right section {
+    margin-bottom: 30px;
+}
+
+.right h4 {
+    border-bottom: 2px dotted #A9A9A9;
+    margin-bottom: 10px;
+}
+
+.right ul {
+    list-style: none;
+}
+
+.right li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
