@@ -1,0 +1,25 @@
+
+public class while_ouyou {
+
+	public static void main(String[] args) {
+		// 15.while文の応用
+		
+		String bar0 = "-";
+		String bar = bar0.repeat(10);
+		
+		int i = 0;
+		
+		do {
+			System.out.println(i);
+			i++;
+		}while(i < 10);
+
+		System.out.println(bar);
+		
+		do {
+			System.out.println(i);
+			i++;
+		}while(i<0);
+	}
+
+}
