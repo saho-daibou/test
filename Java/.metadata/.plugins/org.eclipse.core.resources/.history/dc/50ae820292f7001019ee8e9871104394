@@ -1,0 +1,14 @@
+
+public class while_ouyou {
+
+	public static void main(String[] args) {
+		// 15.while文の応用
+		
+		String bar0 = "-";
+		String bar = bar0.repeat(10);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class while_kiso {
+
+	public static void main(String[] args) {
+		// 14.while文の基礎
+		
+		String bar0 = "-";
+		String bar = bar0.repeat(10);
+		
+		int i = 1;
+		
+		while(i <= 5) {
+			System.out.println(i);
+			i++;
+		}
+
+	}
+
+}

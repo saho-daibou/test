@@ -1,0 +1,15 @@
+
+public class for_ouyou {
+
+	public static void main(String[] args) {
+		// 13.for文（ループ処理）の応用
+		
+		for(int i=1;i<=10;i++) {
+			if(i%2==0) {
+				System.out.println(i);
+			}
+		}
+
+	}
+
+}

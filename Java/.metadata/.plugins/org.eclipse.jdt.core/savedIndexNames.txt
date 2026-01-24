@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\user\OneDrive\Desktop\D.I.Works研修資料\07_Java\01_Javaテキスト\Java\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3497190822.index
+2848869319.index
+969968605.index

@@ -1,0 +1,43 @@
+
+public class for_ouyou {
+
+	public static void main(String[] args) {
+		// 13.for文（ループ処理）の応用
+		
+		String bar0 = "-";
+		String bar = bar0.repeat(10);
+		
+		for(int i=1;i<=10;i++) {
+			if(i%2==0) {
+				System.out.println(i);
+			}
+		}
+		
+		System.out.println(bar);
+		
+		for(int a=0;a<3;a++) {
+			for(int b=1;b<4;b++) {
+				System.out.println(b);
+			}
+		}
+		
+		System.out.println(bar);
+		
+		int c =10;
+		
+		String d = c >=0? "プラス":"マイナス";
+		
+		System.out.println(d);
+		
+		System.out.println(bar);
+		
+		int x = 2;
+		
+		String y = x%2==0? "偶数":"奇数";
+		System.out.println(y);
+		
+		
+
+	}
+
+}

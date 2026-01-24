@@ -1,0 +1,17 @@
+
+public class if_ouyou {
+
+	public static void main(String[] args) {
+		// 8.if文（判定）の応用
+		
+		int a = 20;
+		
+		if(a > 10) {
+			if(a < 30) {
+				System.out.println("A");
+			}
+		}
+
+	}
+
+}

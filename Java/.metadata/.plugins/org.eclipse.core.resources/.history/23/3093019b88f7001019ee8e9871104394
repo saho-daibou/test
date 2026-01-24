@@ -1,0 +1,49 @@
+
+public class if_ouyou {
+
+	public static void main(String[] args) {
+		// 8.if文（判定）の応用
+		
+		int a = 20;
+		if(a > 10) {
+			if(a < 30) {
+				System.out.println("A");
+			}
+		}
+		
+		int b = 50;
+		if(b > 10) {
+			if(b < 30) {
+				System.out.println("A");
+			}
+		}
+		
+		int c = 10;
+		if(c > 0) {
+			if(c == 2) {
+				System.out.println("A");
+			}else if(c == 3){
+				System.out.println("B");
+			}else {
+				System.out.println("C");
+			}
+		}
+		
+		int age = 101;
+		if(age <= 100) {
+			if(age < 20) {
+				System.out.println("未成年");
+			}else if(age == 77) {
+				System.out.println("喜寿");
+			}else if(age == 88) {
+				System.out.println("米寿");
+			}else {
+				System.out.println("成人");
+			}
+			
+		}
+		
+
+	}
+
+}

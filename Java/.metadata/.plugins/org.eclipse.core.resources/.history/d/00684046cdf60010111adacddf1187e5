@@ -1,0 +1,43 @@
+
+public class If_kiso {
+
+	public static void main(String[] args) {
+		// 7.If文（判定）の基礎
+		
+		int a = 10;
+		
+		if(a < 20) {
+			System.out.println("A");
+		}
+		
+		if(a <= 30) {
+			System.out.println("B");
+		}
+		
+		String b = "山田";
+		if(b.equals("山田")) {
+			System.out.println(b+"さん");
+		}
+		
+		
+		int c = 5;
+		if(c<10 && 3<c) {
+			System.out.println("A");
+		}
+		
+		if(c>=5 || c<=0) {
+			System.out.println("B");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class for_kiso {
+
+	public static void main(String[] args) {
+		// 12.for文（ループ処理）の基礎
+		
+		String bar = "-";
+		
+		for (int i = 0;i < 10; i++ ) {
+			System.out.println(i);
+		}
+		
+		System.out.println(bar*10);
+		
+		for( int i2 = 3; i2 < 10; i2++) {
+			System.out.println(i2);
+		}
+
+	}
+
+}

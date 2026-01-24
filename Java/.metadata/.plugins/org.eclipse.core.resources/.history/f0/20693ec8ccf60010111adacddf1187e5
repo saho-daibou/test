@@ -1,0 +1,21 @@
+
+public class If_kiso {
+
+	public static void main(String[] args) {
+		// 7.If文（判定）の基礎
+		
+		int a = 10;
+		
+		if(a < 20) {
+			System.out.println("A");
+		}
+		
+		if(a <= 30) {
+			System.out.println("B");
+		}
+		
+		
+
+	}
+
+}
